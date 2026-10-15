@@ -15,6 +15,6 @@ def confirm_officer(e):
 
     officer_checker = input_final in officer_names # checks if user input is valid
 
-    display_message = (f'You are not a part of the Cadet Corps.', f'Welcome 1CL 2LT Cadet {input_final}!')
+    display_message = (f'Sorry {input_final}, your name is not on the list.', f'Congratulations {input_final}! You are now part of the Cadet Officer club.')
     
     display(display_message[officer_checker], target="output")
